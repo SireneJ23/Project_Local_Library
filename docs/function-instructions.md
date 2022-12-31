@@ -1,12 +1,14 @@
-## Function instructions
+# **Function Instructions**
 
 The following functions can be completed in whichever order you choose. There are difficult problems associated with each page, so feel free to skip around as you work your way up to solving more challenging problems!
 
----
+<br />
 
-### Account functions
+## **Account Functions**
 
-![image.png](./docs/images/../../images/accounts.png)
+<br />
+
+![image.png](./docs/docs/images/../../images/accounts.png)
 
 #### findAccountById()
 
@@ -120,13 +122,13 @@ getBooksPossessedByAccount(account, books, authors);
 */
 ```
 
----
+## **Book Functions**
 
-### Book functions
+<br />
 
-![image.png](./docs/images/../../images/accounts.png)
+![image.png](./docs/docs/images/../../images/book.png)
 
-#### findAuthorById()
+### findAuthorById()
 
 The `findAuthorById()` function in `public/src/books.js` has two parameters, in the following order:
 
@@ -150,7 +152,7 @@ findAuthorById(authors, 11);
 */
 ```
 
-#### findBookById()
+### findBookById()
 
 The `findBookById()` function in `public/src/books.js` has two parameters, in the following order:
 
@@ -172,7 +174,7 @@ findBookById(books, "5f447132320b4bc16f950076");
 */
 ```
 
-#### partitionBooksByBorrowedStatus()
+### partitionBooksByBorrowedStatus()
 
 The `partitionBooksByBorrowedStatus()` function in `public/src/books.js` has a single parameter:
 
@@ -273,7 +275,7 @@ getBorrowersForBook(book, accounts);
 
 ## Home functions
 
-![image.png](./docs/images/../../images/home.png)
+![image.png](./docs/docs/images/../../images/home.png)
 
 ### getTotalBooksCount()
 
@@ -405,6 +407,6 @@ getMostPopularAuthors(books, authors);
 */
 ```
 
-### Create a helper function
+### **Create a helper function**
 
 A helper function is a function that executes part of the logic of another function. Helper functions make your programs easier to understand by letting you give descriptive names to computations and reuse them. For this exercise, create at least one helper method for any of the functions that you implemented for this assignment.
